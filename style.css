@@ -1,0 +1,133 @@
+/* Navbar */
+.navbar .navbar-nav .nav-link:not(.btn) i.fa{
+    font-size: 18px;
+    position: relative;
+    top: 2px;
+    text-align: center;
+    width: 21px;
+  }
+
+  /*----------------------------------------------------------------*/
+  /* Header */
+  .logo {
+      height:50px;
+  }
+
+  .page-header-image {
+      filter:blur(2px);
+  }
+
+  .page-header{
+    background: rgb(56,6,142);
+background: linear-gradient(180deg, rgba(56,6,142,0.9289132882882882) 7%, rgba(175,126,50,0.3973817567567568) 35%, rgba(175,126,50,0.40038475975975973) 65%, rgba(54,100,212,0.32831268768768773) 95%);
+  }
+
+/*----------------------------------------------------------------*/
+/* Main1 Short Resume */
+.main1 img {
+    -webkit-box-shadow: 1px 0px 10px 1px rgba(0,0,0,0.46); 
+    box-shadow: 1px 0px 10px 1px rgba(0,0,0,0.46);
+}
+
+/*----------------------------------------------------------------*/
+/* Main2 Before/after*/
+.main2 {
+    background-color: black;
+}
+
+/* Carusel buttons */
+#carouselExampleFade button:hover {
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+} 
+
+#carouselExampleFade .carousel-control-next:hover {
+    background: rgb(0,0,0);
+    background: linear-gradient(270deg, rgba(0,0,0,0.9349192942942943) 5%, rgba(136,136,136,0) 72%, rgba(255,255,255,0) 94%);
+}
+
+#carouselExampleFade .carousel-control-prev:hover {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0.9349192942942943) 5%, rgba(136,136,136,0) 72%, rgba(255,255,255,0) 94%);
+}
+
+/* Text Color */
+.customb {
+    color:white;
+}
+
+/*----------------------------------------------------------------*/
+/* Main3 our services */
+.main3h3 {
+    position: relative;
+    top: -25px;
+}
+
+/* Cards with services */
+.card img {
+    height: 200px;
+    padding: 10px;
+}
+
+.col-md-4 .card {
+    height: 580px;
+}
+
+.col-md-4 .card:hover {
+    transform: scale(1.1);
+    margin: 10px;
+    box-shadow: 1px 1px 15px 1px #000000;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    z-index: 2;
+}
+
+.card-body li {
+    font-size: 18px;
+}
+
+/*----------------------------------------------------------------*/
+/* Main4 */
+
+.main4 {
+    background-color: black;
+}
+
+/* Carusel buttons testimonials */
+#carouselExampleControls .carousel-control-next:hover {
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+    background: rgb(0,0,0);
+    background: linear-gradient(270deg, rgba(0,0,0,0.9349192942942943) 5%, rgba(136,136,136,0) 72%, rgba(255,255,255,0) 94%);
+}
+
+#carouselExampleControls .carousel-control-prev:hover {
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0.9349192942942943) 5%, rgba(136,136,136,0) 72%, rgba(255,255,255,0) 94%);
+}
+
+/* Google Map */
+.map {
+    width: 40vmax;
+    height: 28vmax;
+    margin: 20px;
+    box-shadow: 1px 0px 15px 3px rgba(0,0,0,0.46);
+}
+
+.map:hover {
+    box-shadow: 1px 0px 15px 8px rgba(0,0,0,0.66);
+}
+
+.contactli {
+    font-size: 1.5rem;
+    list-style: none;
+    position: relative;
+    left: -27px;
+    margin-bottom: 20px;
+}
+
+.getint {
+    margin-top: 20px;
+}
